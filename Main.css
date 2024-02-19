@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add this CSS to your existing styles.css or include it in the head of your HTML file */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #ccc; /* Add border to create a box */
+    padding: 5px; /* Add padding to create space within the box */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #ffffff; /* Set link color */
+    display: block;
+    padding: 5px; /* Add padding to the link for spacing within the box */
+}
+
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.services-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+}
+
+.service {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    text-align: center; /* Center text and image */
+    border-bottom: none; /* Remove the border line */
+}
+
+
+.service img {
+    max-width: 250px; /* Set a larger maximum width for the images */
+    margin-bottom: 10px; /* Add some spacing below the image */
+}
+
+/* Add more styles as needed */
+

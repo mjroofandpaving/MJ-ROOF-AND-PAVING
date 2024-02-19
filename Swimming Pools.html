@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, ul, li, form {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #000000;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: relative;
+            height: 400px; /* Adjust the height as needed */
+            overflow: hidden;
+        }
+
+        header img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        header .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #ffffff; /* Text color */
+        }
+
+        header h1 {
+            font-size: 48px; /* Adjust font size as needed */
+            margin-bottom: 20px; /* Adjust spacing as needed */
+            font-weight: bold;
+            text-shadow: 2px 2px 4px #000000; /* Add text shadow for better visibility */
+        }
+
+        section {
+            max-width: 1500px;
+            margin: 20px auto;
+            padding: 20px;
+            color: #ffffff; /* Text color for the section */
+        }
+
+        .services-container {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            white-space: nowrap;
+            position: relative;
+        }
+
+        .service {
+            flex: 0 0 auto;
+            margin-right: 20px;
+            scroll-snap-align: start;
+            text-align: center;
+        }
+
+        .service img {
+            max-width: 300px; /* Set a larger maximum width for the images */
+            height: auto;
+            margin-bottom: 10px; /* Add some spacing below the image */
+        }
+
+        h2, h3 {
+            font-size: 28px; /* Increase font size for section titles */
+            margin-bottom: 15px; /* Add spacing below titles */
+        }
+
+        p {
+            font-size: 16px; /* Increase font size for paragraphs */
+            margin-bottom: 10px; /* Add spacing below paragraphs */
+        }
+
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+    <title>M&J ROOF AND PAVING</title>
+</head>
+<body>
+
+    <header>
+        <img src="MAIN PHOTOS/M&J SWIMMING POOLS/M&J SWIMMING POOLS/MAIN !/M&J SWIMMING POOLS.jpg" alt="Header Image">
+        <div class="header-text">
+            <h1>M&J SWIMMING POOLS</h1>
+        </div>
+    </header>
+       
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <img src="MAIN PHOTOS/HIGH PRESSURE WASING.png" alt="High-Pressure Washing">
+                <h3>High-Pressure Washing</h3>
+                <p>We offer professional high-pressure washing services to clean various surfaces.</p>
+            </div>
+            <div class="service">
+                <img src="MAIN PHOTOS/APOXY FLOORING.png" alt="Epoxy Flooring">
+                <h3>Epoxy Flooring</h3>
+                <p>We provide high-quality epoxy flooring solutions for residential and commercial spaces.</p>
+            </div>
+            <div class="service">
+                <img src="MAIN PHOTOS/GUTTERS.png" alt="Gutters Installation">
+                <h3>Gutters Installation</h3>
+                <p>Our expert team installs durable and efficient gutter systems for your property.</p>
+            </div>
+            <!-- Add more services as needed -->
+            <div class="service">
+                <img src="MAIN PHOTOS/SPRAY PAINTING.jpg" alt="Spray Painting">
+                <h3>Spray Painting</h3>
+                <p>We offer professional spray painting services for a variety of surfaces.</p>
+            </div>
+            <div class="service">
+                <img src="MAIN PHOTOS/Roof and House Maintenance.png" alt="Roof Maintenance">
+                <h3>Roof Maintenance</h3>
+                <p>Our team provides comprehensive roof maintenance services for residential and commercial properties.</p>
+            </div>
+            <div class="service">
+                <img src="MAIN PHOTOS/WATERPROOFING.png" alt="Waterproofing">
+                <h3>Waterproofing</h3>
+                <p>We specialize in effective waterproofing solutions to protect your property from water damage.</p>
+            </div>
+            <div class="service">
+                <img src="MAIN PHOTOS/RENOVATIONS.png" alt="Renovations">
+                <h3>Renovations</h3>
+                <p>Transform your space with our professional renovation services tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <img src="MAIN PHOTOS/PAVING.png" alt="Paving">
+                <h3>Paving</h3>
+                <p>We offer expert paving services for driveways, walkways, and outdoor spaces.</p>
+            </div>
+            <div class="service">
+                <img src="MAIN PHOTOS/BUILDING.jpg" alt="Building">
+                <h3>Building</h3>
+                <p>From small projects to large constructions, our team provides reliable building services.</p>
+            </div>
+            <div class="service">
+                <img src="MAIN PHOTOS/swiming pools.png" alt="Swimming Pools">
+                <h3>Swimming Pools</h3>
+                <p>Design and construction of stunning swimming pools to enhance your property.</p>
+            </div>
+            <div class="service">
+                <img src="MAIN PHOTOS/OILSTAIN REMOVAL.png" alt="Oil Stain Removal">
+                <h3>Oil Stain Removal</h3>
+                <p>We specialize in removing oil stains from various surfaces effectively.</p>
+            </div>
+            <div class="service">
+                <img src="MAIN PHOTOS/Repainting of Road Signs.png" alt="Road Signs Repainting">
+                <h3>Road Signs Repainting</h3>
+                <p>Professional repainting services for road signs to enhance visibility and aesthetics.</p>
+            </div>
+            <div class="service">
+                <img src="MAIN PHOTOS/HANDYMAN.png" alt="Handyman Services">
+                <h3>Handyman Services</h3>
+                <p>Get reliable and efficient handyman services for various repairs and tasks.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 M&J Roof and Paving. All rights reserved. | Designed by Website Wizards</p>
+    </footer>
+
+</body>
+</html>
